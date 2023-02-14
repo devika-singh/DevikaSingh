@@ -1,0 +1,25 @@
+body{
+    background: black;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+  }
+  
+  p, a{
+    color:white;
+    font-size: 4.5vw;
+    font-family: "Rubik", sans-serif;
+    margin:0rem;
+    text-transform: uppercase;
+  }
+  
+ #navbar{
+    width:100%;
+    height: 10vh;
+  }
+  
+  #section2{
+    width: 30vw;
+  }

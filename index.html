@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="styleAbout.css">
+        <link rel="stylesheet" href="styleCommon.css">
+    </head>
+    <body>
+            <nav id="navbar" class="navbar fixed-top navbar-dark navbar-expand-sm">
+                
+        <div class="container">
+            <a href="#" class="navbar-brand h1">
+                    <img class="d-inline-block align-top" src="logo.svg" height="30" width="30"> DevDev</a>
+                    <button 
+                        class="navbar-toggler"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        type="button"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-labek="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="#" class="nav-link active">Intro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <div id="section2">
+            
+            <div id="text">
+                <div class="line">
+                <p class="word">Hey</p>
+                <p class="word">Beautiful!</p>
+                
+                </div>
+                <div class="line">
+                <p class="word">This </p>
+                <p class="word">One'S </p>
+                </div>
+                <div class="line">
+                <p class="word fancy" id="fname">Devika</p>
+                <p class="word fancy" id="lname">Singh</p> 
+                </div>
+                <div class="line">
+                <p class="word">A</p> 
+                <p class="word">Sophomore</p> 
+                </div>
+                <div class="line">
+                <p class="word">IITG</p>
+                <p class="word">CSE</p>
+                </div>
+                <div class="line">
+                    <a id="channel-link" class="word fancy" href="" target="_blank">@devika-singh</a> 
+                </div>
+                
+                
+            </div>
+            <script>           
+                const enhance = id => {
+                const element = document.getElementById(id),
+                        text = element.innerText.split("");
+                
+                        element.innerText = "";
+                        
+                        text.forEach(letter => {
+                        const span = document.createElement("span");
+                        
+                        span.className = "letter";
+                        
+                        span.innerText = letter;
+                        
+                        element.appendChild(span);
+                        }
+                        
+                        )
+                }
+
+                enhance("channel-link")
+
+                enhance("fname")
+
+                enhance("lname")
+            </script>
+        </div>
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+    </body>
+</html>
