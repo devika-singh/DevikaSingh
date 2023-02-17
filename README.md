@@ -1,6 +1,8 @@
 # DevikaSingh
 A HTML, JS, CSS website for me
 
+link github page: https://devika-singh.github.io/DevikaSingh/
+
 Git Personal Website
 
 Components 6
