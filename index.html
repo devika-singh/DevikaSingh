@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Devika Singh</title>
+        <link rel="icon" href="logo.svg" type="image/svg">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="styleAbout.css">
         <link rel="stylesheet" href="styleCommon.css">
+        <link rel="stylesheet" href="styleIntro.css">
+        <link rel="stylesheet" href="styleProjects.css">
     </head>
     <body>
             <nav id="navbar" class="navbar fixed-top navbar-dark navbar-expand-sm">
                 
         <div class="container">
             <a href="#" class="navbar-brand h1">
-                    <img class="d-inline-block align-top" src="logo.svg" height="30" width="30"> DevDev</a>
+                    <img class="d-inline-block align-top logo" src="logo.svg" height="30" width="30"> DevDev</a>
                     <button 
                         class="navbar-toggler"
                         data-bs-toggle="collapse"
@@ -24,13 +28,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a href="#" class="nav-link active">Intro</a>
+                                <a href="#section2" class="nav-link">About</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Projects</a>
+                                <a href="#" class="nav-link">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#section4" class="nav-link">Projects</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">Contact</a>
@@ -39,7 +43,18 @@
                     </div>
                 </div>
             </nav>
-        <div id="section2">
+<div class="content" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <div id="section1" class="d-flex flex-row align-items-center justify-content-end">
+            <img class="d-inline-block " id="introPic" src="penguinIntro.png" height="100%" width="auto">
+            <div class="d-inline-block text_ text-right ">
+                <p>
+                    Devika Singh
+                <br><span class="outline">Tech Enhusiast</span>
+                </p>
+            </div>
+        </div>    
+
+        <div id="section2" class="d-flex flex-row align-items-center justify-content-center">
             
             <div id="text">
                 <div class="line">
@@ -57,7 +72,7 @@
                 </div>
                 <div class="line">
                 <p class="word">A</p> 
-                <p class="word">Sophomore</p> 
+                <p class="word">3rd Yearite</p> 
                 </div>
                 <div class="line">
                 <p class="word">IITG</p>
@@ -69,6 +84,13 @@
                 
                 
             </div>
+        </div>
+
+        <div id="section4" class="d-flex flex-col align-items-center justify-content-center">
+            <a></a>
+            <a></a>
+        </div>
+    </div>
             <script>           
                 const enhance = id => {
                 const element = document.getElementById(id),
@@ -93,11 +115,17 @@
 
                 enhance("fname")
 
-                enhance("lname")
+                enhance("lname");
             </script>
-        </div>
-
         
+<script type="text/javascript">
+	let pic = document.getElementById('introPic');
+	window.addEventListener('scroll',function(){
+		let value = window.scrollY;
+        if(value < 700)
+		pic.style.top = value*1.10 + 'px';
+	});
+</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   
     </body>
