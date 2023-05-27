@@ -69,3 +69,8 @@ body{
   text-shadow: #5fb7cf 0px 0px 5px;
   -webkit-font-smoothing: antialiased;
 }
+
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
