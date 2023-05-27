@@ -1,0 +1,25 @@
+#section1{
+    width:100%;
+    position: relative;
+    height:85vh;
+    margin-bottom: 5vh;
+}
+
+#section1 > .text_{
+    font-size:8vh;
+    z-index: 100;
+}
+
+#section1 > img{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+#section1 span{
+    color: #000;
+    font-size: 11vh;
+    
+    text-shadow: #5fb7cf 0px 0px 5px;
+    -webkit-font-smoothing: antialiased;
+}
