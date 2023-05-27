@@ -4,10 +4,12 @@
         <title>Devika Singh</title>
         <link rel="icon" href="logo.svg" type="image/svg">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link rel="stylesheet" href="styleAbout.css">
         <link rel="stylesheet" href="styleCommon.css">
         <link rel="stylesheet" href="styleIntro.css">
         <link rel="stylesheet" href="styleProjects.css">
+        <link rel="stylesheet" href="styleContact.css">
     </head>
     <body>
             <nav id="navbar" class="navbar fixed-top navbar-dark navbar-expand-sm">
@@ -36,9 +38,9 @@
                             <li class="nav-item">
                                 <a href="#section4" class="nav-link">Projects</a>
                             </li>
-                            <!--<li class="nav-item">
-                                <a href="#" class="nav-link">Contact</a>
-                            </li>-->
+                            <li class="nav-item">
+                                <a href="#section5" class="nav-link">Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -88,7 +90,28 @@
 
         <div id="section4" class="d-flex flex-column align-items-center justify-content-center">
             <a class="text blue-outline" href="#section4" target="_blank" data-value="AttenDance">Projects</a>
-            <!--<a class="h6" href="#">View all</a>-->
+            <a class="h6" href="#">View all</a>
+        </div>
+
+        <div id="section5" class="text-center text-lg-start d-flex flex-column align-items-center justify-content-center">
+                <!-- Section: Social media -->
+                  <div class="d-none d-lg-block border-bottom">
+                    <p>Contact Me</p>
+                  </div>
+                  <!-- Left -->
+              
+                  <!-- Right -->
+                  <div class="text-white">
+                    <a href="https://github.com/devika-singh" class="me-4 text-reset">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <!--<a href="https://www.instagram.com/dev.ika_singh/" class="me-4 text-reset">
+                        <i class="bi bi-instagram"></i>
+                    </a>-->
+                    <a href="https://www.linkedin.com/in/devika-singh-982436255/" class="me-4 text-reset">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                  </div>
         </div>
     </div>
 
@@ -98,6 +121,7 @@
         
         let showcase_i = 1;
         const showcase = ["Projects","AttenDance","BeepTheSheep","iitgCovidHelp"];
+        //on click in projects return false
         const showcase_href = ["#section4","https://github.com/devika-singh/AttenDance","https://github.com/devika-singh/BeepTheSheep","https://github.com/devika-singh/iitgCovidHelp"];
         
         document.querySelector(".text").onmouseover = event => {
