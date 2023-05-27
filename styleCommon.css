@@ -21,7 +21,7 @@ body{
   p, a{
     color:white;
     font-size: 4.5vw;
-    font-family: "Rubik", sans-serif,monospace;
+    font-family: "Rubik", sans-serif;
     margin:0rem;
     text-transform: uppercase;
   }
@@ -60,4 +60,12 @@ body{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #5fb7cf; 
+}
+
+.blue-outline {
+  color: #000;
+  font-size: 11vh;
+  
+  text-shadow: #5fb7cf 0px 0px 5px;
+  -webkit-font-smoothing: antialiased;
 }

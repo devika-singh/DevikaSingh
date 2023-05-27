@@ -16,10 +16,3 @@
     z-index: 1;
 }
 
-#section1 span{
-    color: #000;
-    font-size: 11vh;
-    
-    text-shadow: #5fb7cf 0px 0px 5px;
-    -webkit-font-smoothing: antialiased;
-}
