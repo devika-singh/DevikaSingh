@@ -7,11 +7,11 @@
     position: relative;
     margin-top: 10vh;
   }
-  #text{
+  #section2 #text{
     width:36.9vw;
   }
   
-  #text:has(.fancy:hover) .word:not(.fancy:hover){
+  #section2 #text:has(.fancy:hover) .word:not(.fancy:hover){
     opacity:0.2;
     animation-name: opacity;
     animation-duration: .25s;
@@ -21,56 +21,62 @@
     to {opacity:0.2}
   }
   
-  .line{
+  #section2 .line{
     display:flex;
     justify-content: space-between;
   }
   
-  .fancy > .letter {
+  #section2 .fancy > .letter {
     display:inline-block;
     transition: transform 350ms ease-in;
   }
   
-  .fancy:hover > .letter{
+  #section2 .fancy:hover > .letter{
     transition-duration: 800ms;
   }
   
-  .fancy:hover > .letter:nth-child(1){
+  #section2 .fancy:hover > .letter:nth-child(1){
     transform:translate(-70%,50%) rotate(15deg);
-  }.fancy:hover > .letter:nth-child(2){
+  }  #section2 .fancy:hover > .letter:nth-child(2){
     transform:translate(-20%,0%) rotate(8deg);
-  }.fancy:hover > .letter:nth-child(3){
+  }  #section2 .fancy:hover > .letter:nth-child(3){
     transform:translate(-20%,30%) rotate(-5deg);
   }
-  .fancy:hover > .letter:nth-child(4){
+  #section2 .fancy:hover > .letter:nth-child(4){
     transform:translate(0%,-15%) rotate(-10deg);
   }
-  .fancy:hover > .letter:nth-child(5){
+  #section2 .fancy:hover > .letter:nth-child(5){
     transform:translate(0%,-50%) rotate(10deg);
   }
-  .fancy:hover > .letter:nth-child(6){
+  #section2 .fancy:hover > .letter:nth-child(6){
     transform:translate(0%,0%) rotate(-12deg);
   }
-  .fancy:hover > .letter:nth-child(7){
+  #section2 .fancy:hover > .letter:nth-child(7){
     transform:translate(20%,-60%) rotate(-8deg);
   }
-  .fancy:hover > .letter:nth-child(8){
+  #section2 .fancy:hover > .letter:nth-child(8){
     transform:translate(0%,0%) rotate(12deg);
   }
-  .fancy:hover > .letter:nth-child(9){
+  #section2 .fancy:hover > .letter:nth-child(9){
     transform:translate(0%,-50%) rotate(-10deg);
   }
-  .fancy:hover > .letter:nth-child(10){
+  #section2 .fancy:hover > .letter:nth-child(10){
     transform:translate(0%,25%) rotate(10deg);
   }
-  .fancy:hover > .letter:nth-child(11){
+  #section2 .fancy:hover > .letter:nth-child(11){
     transform:translate(20%,0%) rotate(-8deg);
   }
-  .fancy:hover > .letter:nth-child(12){
+  #section2 .fancy:hover > .letter:nth-child(12){
     transform:translate(15%,20%) rotate(14deg);
   }
-  .fancy:hover > .letter:nth-child(13){
+  #section2 .fancy:hover > .letter:nth-child(13){
     transform:translate(25%,-26%) rotate(45deg);
   }
   
-  
+  #section2 a{
+    color:white;
+    font-size: 4.5vw;
+    font-family: "Rubik", sans-serif;
+    margin:0rem;
+    text-transform: uppercase;
+  }
