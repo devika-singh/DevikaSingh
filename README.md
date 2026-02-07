@@ -6,9 +6,9 @@ link github page: https://devika-singh.github.io/DevikaSingh/
 Git Personal Website
 
 Components 6
-- [ ] Header (Still some twerks left)
+- [x] Header (Still some twerks left)
 - [ ] Cool Double Header link ref https://www.youtube.com/watch?v=bAwEj_mSzOs
 - [x] About
-- [ ] Projects
+- [x] Projects
 - [ ] TechStacks I know
-- [ ] Contact me footer
+- [x] Contact me footer
