@@ -1,6 +1,6 @@
 #section5{
     width:100%;
-    background-color: black;
+    background-color: white;
     position: relative;
     height:100vh;
     padding-top: 10vh;
@@ -8,7 +8,7 @@
 }
 
 #section5 a{
-    color:white;
+    color:black;
     font-size: 1vw;
     margin:auto;
     text-decoration: none;
